@@ -1,28 +1,30 @@
-<?php
-    $prov_sede = [
-        "Málaga"  => ["Benalmádena", "Málaga"],
-        "Sevilla" => ["Dos Hermanas", "Alcalá de Guadaíra"],
-        "Valencia" => ["Gandía", "Torrent"],
-        "Madrid"  => ["Móstoles", "Alcalá de Henares"],
-        "Barcelona" => ["Hospitalet de Llobregat", "Badalona"],
-        "Granada" => ["Motril", "Almuñécar"]
-    ];
-
-    $depart = [
-        "Dirección General / Gerencia",
-        "Finanzas / Contabilidad",
-        "Recursos Humanos (RRHH)",
-        "Tecnologías de la Información (TI) / Sistemas",
-        "Desarrollo de Software / Ingeniería",
-        "Seguridad de la Información (Ciberseguridad)",
-        "Comercial / Ventas",
-        "Marketing",
-        "Atención al Cliente / Soporte",
-        "Producción / Fabricación",
-        "Logística / Cadena de Suministro",
-        "Calidad"
-    ]
-?>
+<!DOCTYPE html>
+<html lang="en">
+    <?php
+        $prov_sede = [
+            "Málaga"  => ["Benalmádena", "Málaga"],
+            "Sevilla" => ["Dos Hermanas", "Alcalá de Guadaíra"],
+            "Valencia" => ["Gandía", "Torrent"],
+            "Madrid"  => ["Móstoles", "Alcalá de Henares"],
+            "Barcelona" => ["Hospitalet de Llobregat", "Badalona"],
+            "Granada" => ["Motril", "Almuñécar"]
+        ];
+    
+        $depart = [
+            "Dirección General / Gerencia",
+            "Finanzas / Contabilidad",
+            "Recursos Humanos (RRHH)",
+            "Tecnologías de la Información (TI) / Sistemas",
+            "Desarrollo de Software / Ingeniería",
+            "Seguridad de la Información (Ciberseguridad)",
+            "Comercial / Ventas",
+            "Marketing",
+            "Atención al Cliente / Soporte",
+            "Producción / Fabricación",
+            "Logística / Cadena de Suministro",
+            "Calidad"
+        ]
+    ?>
 <body>
     <form action="./recogida_ejercicio.php" method="post">
         <span>Nombre: </span>
